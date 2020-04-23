@@ -411,6 +411,7 @@ export function netSummary(lookupTable, subnet, hosts) {
 }
 
 export function collocationOK(currentRoles, newRole, installType, clusterType) {
+/*
     let validCollocation = ['osds', 'rgws'];
     console.log("checking for collocation violations");
     console.log("current roles " + currentRoles);
@@ -441,7 +442,7 @@ export function collocationOK(currentRoles, newRole, installType, clusterType) {
             return false;
         }
     }
-
+*/
     return true;
 }
 
